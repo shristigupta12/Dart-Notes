@@ -20,4 +20,17 @@ main() {
 // double -> String
   String pi = 3.14159.toStringAsFixed(2);
   assert(pi == '3.14');
+
+// Constants
+  const constInt = 0; 
+  const constBool = true;
+  const constString = 'a constant string';
+
+  print(constInt);
+  print(constBool);
+  print(constString);
+
+  print(constInt.runtimeType); // these 3 will give the data type
+  print(constBool.runtimeType);
+  print(constString.runtimeType);
 }
